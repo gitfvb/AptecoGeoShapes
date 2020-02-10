@@ -15,6 +15,7 @@
   * Powerful tool to extract data from OpenStreetMaps
 * [OpenStreetMaps Lookup](https://www.openstreetmap.org/relation/218657)
   * Have a look at the different Names and attributes of specific objects on the map
+* [Names of Postal Codes](https://download.geonames.org/export/zip/)
 
 # Countries tested
 
