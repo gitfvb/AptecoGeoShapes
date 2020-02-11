@@ -15,7 +15,11 @@
   * Powerful tool to extract data from OpenStreetMaps
 * [OpenStreetMaps Lookup](https://www.openstreetmap.org/relation/218657)
   * Have a look at the different Names and attributes of specific objects on the map
+
+# General sources
 * [Names of Postal Codes](https://download.geonames.org/export/zip/)
+* [World Countries Shapes](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries)<br/>![2020-02-11 10_03_04-_Unbenanntes Projekt - QGIS](https://user-images.githubusercontent.com/14135678/74222906-6671ab00-4cad-11ea-9dc4-7d379a1d0f47.png)
+
 
 # Countries tested
 
