@@ -30,7 +30,7 @@ Italy | CAP ZONE italiane | [Italy Shape Files](Italy)
 Luxembourg  | :question: | [Luxembourg Shape Files](Luxembourg)
 Poland | :question: | [Poland Shape Files](Poland)
 Hungary | - | [Hungary Shape Files](Hungary)
-Netherlands | - | [Netherlands Shape Files](Netherlands)
+Netherlands | GOP<br/>Postcode4 | [Netherlands Shape Files](Netherlands)
 Belgium | - | [Belgium Shape Files](Belgium)
 
 # Use in Apteco FastStats
