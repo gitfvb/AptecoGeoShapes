@@ -20,3 +20,5 @@
 ### Steps
 
 1. Download the LV03 Shapes via: http://data.geo.admin.ch/ch.swisstopo-vd.ortschaftenverzeichnis_plz/PLZO_SHP_LV03.zip
+  ![grafik](https://user-images.githubusercontent.com/14135678/77164778-dfcc9c80-6aa8-11ea-8acc-f046b7e3b2f0.png)
+
