@@ -52,7 +52,7 @@ mapshaper -each 'FS_DESC=plz.toString()'
 
 # Aggregation von Geometrien mit einem Feld
 
-Um die Regionen zusammenzuführen, z.B. PLZ5 zu PLZ2, kann man dies mit dem einfach Befehl `mapshaper -dissolve PLZ2' durchführen:
+Um die Regionen zusammenzuführen, z.B. PLZ5 zu PLZ2, kann man dies mit dem einfach Befehl `mapshaper -dissolve PLZ2'` durchführen:
 
 ![TinyTake12-05-2020-01-36-47_v2](https://user-images.githubusercontent.com/14135678/81683821-bb60c100-9456-11ea-80fd-47b16e52c4b9.gif)
 
