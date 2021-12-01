@@ -1,3 +1,7 @@
+# Swiss Boundaries
+
+https://www.swisstopo.admin.ch/de/geodata/landscape/boundaries3d.html#technische_details
+
 # Amtliches Ortschaftenverzeichnis
 
 ## Source
