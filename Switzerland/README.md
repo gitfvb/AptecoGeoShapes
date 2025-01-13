@@ -26,3 +26,18 @@ https://www.swisstopo.admin.ch/de/geodata/landscape/boundaries3d.html#technische
 1. Download the LV03 Shapes via: http://data.geo.admin.ch/ch.swisstopo-vd.ortschaftenverzeichnis_plz/PLZO_SHP_LV03.zip
   ![grafik](https://user-images.githubusercontent.com/14135678/77164778-dfcc9c80-6aa8-11ea-8acc-f046b7e3b2f0.png)
 
+# Kantone
+
+Download current file at https://www.swisstopo.admin.ch/de/landschaftsmodell-swissboundaries3d#technische_details
+Extract the file and import all `*Kanton*` files into mapshaper.org
+With the following commands you can prepare the files
+
+```
+# Showing all fields/properties of the shapefile
+- info
+
+# Change projection to WGS84
+-proj wgs84
+
+
+```
