@@ -29,7 +29,7 @@ https://www.swisstopo.admin.ch/de/geodata/landscape/boundaries3d.html#technische
 # Kantone
 
 Download current file at https://www.swisstopo.admin.ch/de/landschaftsmodell-swissboundaries3d#technische_details
-Extract the file and import all `*Kanton*` files into mapshaper.org
+Extract the file and import all `*Kanton*` files into mapshaper.org, some good hints can be found here: https://github.com/gitfvb/AptecoGeoShapes/blob/dev-initial/Code-Examples/mapshaper.md
 With the following commands you can prepare the files
 
 ```
@@ -39,5 +39,7 @@ With the following commands you can prepare the files
 # Change projection to WGS84
 -proj wgs84
 
+# Create a new field with trimmed canton numbers
+-each 'KANTON=KANTONSNUM.toString().trim()'
 
 ```
