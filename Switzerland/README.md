@@ -43,3 +43,21 @@ With the following commands you can prepare the files
 -each 'KANTON=KANTONSNUM.toString().trim()'
 
 ```
+
+# PLZ
+
+Go to https://data.geo.admin.ch/ and look for something like ´ortschaftenverzeichnis_plz` and then download the `*.shp.zip*` file
+
+Then the same as in Kantone, user mapshaper to transform the files
+
+```
+# Showing all fields/properties of the shapefile
+- info
+
+# Change projection to WGS84
+-proj wgs84
+
+```
+
+simplify and export as geojson
+and export 
