@@ -57,6 +57,14 @@ Then the same as in Kantone, user mapshaper to transform the files
 # Change projection to WGS84
 -proj wgs84
 
+# remove not needed fields
+filter-fields ZIP4,STATUS
+
+# simplify maybe over the UI, e.g. simplified to 0.5%
+
+# clean the shape
+-clean
+
 ```
 
 simplify and export as geojson
