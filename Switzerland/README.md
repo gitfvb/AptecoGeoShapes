@@ -44,6 +44,40 @@ With the following commands you can prepare the files
 
 ```
 
+Btw. if you want to use this map with a selector variable that mirrors the current distribution in the cantons, use this expression:
+
+```
+FormatNumber(BandUp(
+	Rand(999)+1
+	;179
+;298
+;346
+;350
+;369
+;373
+;378
+;383
+;398
+;436
+;468
+;490
+;523
+;533
+;539
+;541
+;601
+;624
+;705
+;738
+;778
+;872
+;913
+;933
+;992
+)+1
+;0)
+```
+
 # PLZ
 
 Go to https://data.geo.admin.ch/ and look for something like ´ortschaftenverzeichnis_plz` and then download the `*.shp.zip*` file
@@ -69,3 +103,5 @@ filter-fields ZIP4,STATUS
 
 simplify and export as geojson
 and export 
+
+
