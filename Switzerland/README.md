@@ -42,7 +42,8 @@ With the following commands you can prepare the files
 # Create a new field with trimmed canton numbers
 -each 'KANTON=KANTONSNUM.toString().trim()'
 
-# Optional: Filter by Kantone
+# Optional: Remove null values and Filter by Kantone
+-filter 'KANTONSNUM != null'
 -filter '"15,16,17".indexOf(KANTONSNUM.toString().trim()) > -1'
 
 ```
