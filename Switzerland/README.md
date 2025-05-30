@@ -42,6 +42,9 @@ With the following commands you can prepare the files
 # Create a new field with trimmed canton numbers
 -each 'KANTON=KANTONSNUM.toString().trim()'
 
+# Optional: Filter by Kantone
+-filter '"15,16,17".indexOf(KANTONSNUM.toString().trim()) > -1'
+
 ```
 
 Btw. if you want to use this map with a selector variable that mirrors the current distribution in the cantons, use this expression:
@@ -98,6 +101,7 @@ filter-fields ZIP4,STATUS
 
 # clean the shape
 -clean
+
 
 ```
 
