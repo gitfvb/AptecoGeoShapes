@@ -44,7 +44,7 @@ With the following commands you can prepare the files
 
 # Optional: Remove null values and Filter by Kantone
 -filter 'KANTONSNUM != null'
--filter '"15,16,17".indexOf(KANTONSNUM.toString().trim()) > -1'
+-filter '["15", "16", "17"].includes(KANTONSNUM.toString().trim())'
 
 ```
 
